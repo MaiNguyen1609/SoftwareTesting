@@ -18,9 +18,15 @@ namespace Demo
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             int a = int.Parse(textBox1.Text);
             int b = int.Parse(textBox1.Text);
             int c = a + b;
+=======
+            int so1 = int.Parse(textBox1.Text);
+            int so2 = int.Parse(textBox1.Text);
+            int d = so1 + so2;
+>>>>>>> TestingBranch
         }
     }
 }
